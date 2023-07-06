@@ -165,7 +165,7 @@ main {
 /* title images */
 
 .title-images {
-  width: 950px;
+  width: 900px;
   margin: 0 auto;
   margin-top: 4rem;
   text-align: center;
@@ -635,5 +635,45 @@ footer a {
   .character-gallery .cards {
     gap: 1rem;
     padding: 6px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 14px;
+  }
+
+  /* hero section */
+  .hero .title-container {
+    width: 700px;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .subtitle {
+    width: 500px;
+    margin: 1rem auto;
+  }
+
+  .title-images {
+    width: 100%;
+  }
+  /* about section */
+
+  .about {
+    padding: 2.5rem 4rem;
+    margin-top: 2.5rem;
+  }
+
+  .card-image {
+    flex-basis: 45%;
+  }
+  /* characters  section*/
+
+  .character-gallery .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
