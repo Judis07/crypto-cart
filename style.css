@@ -699,6 +699,12 @@ footer a {
     font-size: 13px;
   }
 
+  /* heaer */
+  .nav-links,
+  .social-links {
+    display: none;
+  }
+
   /* hero section */
   .title {
     font-size: 3rem;
@@ -719,7 +725,7 @@ footer a {
   }
 
   .title-images {
-    width: 85%;
+    margin-top: 1.5rem;
     height: 250px;
   }
 
@@ -728,12 +734,17 @@ footer a {
   .about {
     padding: 3rem 2rem;
   }
+
+  .section-title-container {
+    width: 100%;
+  }
   .section-title-container h2 {
     font-size: 2.2rem;
   }
 
   .about-card {
     flex-direction: column;
+    margin-top: 1.5rem;
   }
 
   .card-image {
@@ -751,5 +762,23 @@ footer a {
   .character-gallery .cards {
     gap: 2rem;
     grid-template-columns: 1fr;
+  }
+
+  /* faqs */
+  .faqs {
+    padding: 2.5rem 0;
+  }
+
+  /* community */
+
+  .community {
+    padding: 2rem;
+  }
+
+  .community > img {
+    height: 100%;
+  }
+  .social-btns {
+    flex-direction: column;
   }
 }
